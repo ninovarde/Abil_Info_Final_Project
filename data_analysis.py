@@ -48,7 +48,7 @@ im = plt.scatter(b_y,-M_ass,c = age_parent_Gyr,s = 5,cmap = cmap,norm = norm)
 handles,labels = im.legend_elements(num= intervals,fmt =None)
 labels = [u"{}Gyr - {}Gyr".format(intervals[i], intervals[i+1]) for i in range(len(intervals)-1)]
 
-leg = plt.legend(handles = handles,labels = labels,fontsize = 7, loc="upper right")
+leg = plt.legend(handles = handles,labels = labels,fontsize = 5, loc="upper right")
 
 plt.xlabel('b-y',fontsize = 15)
 plt.ylabel('M_ass',fontsize = 15)
@@ -143,4 +143,6 @@ plt.xlim(0,7)
 plt.ylim(-2.3,1)
 
 plt.legend(loc = 'lower right',fontsize = 10)
+
+plt.show()
 
