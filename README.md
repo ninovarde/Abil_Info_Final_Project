@@ -7,8 +7,11 @@ Instructions:
 3) Autorize and then run the script using the two following lines:
 
     `chmod +x Bash_Script.sh`\
-    `bash Bash_Script.sh`
+    `sh Bash_Script.sh`\
+   
+   Obviously you have to include the full path if you are in a different directory than the one where you downloaded the file.
 
+   
 NB: The "Bash_Script.sh" will be also moved to the specified location.
 
    
