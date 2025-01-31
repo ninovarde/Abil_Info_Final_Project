@@ -7,7 +7,7 @@ A repository containing all the material related to the final project of the cou
 3) Grant the permission and then run the script using the following two commands:
 
     `chmod +x Bash_Script.sh`\
-    `sh Bash_Script.sh`\
+    `sh Bash_Script.sh`
    
    If you're in a different directory from where you downloaded the file, make sure to include the full path.
 
