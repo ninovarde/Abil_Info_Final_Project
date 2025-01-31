@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 echo "Make sure that the specified path is the correct one !"
 
