@@ -20,6 +20,9 @@ wget -P $path/Varde_AbInfo https://raw.githubusercontent.com/ninovarde/Abil_Info
 
 
 
+#Change the working directory to the created one
+cd $path/Varde_AbInfo 
+
 # Run the Python script to make the data analysis
 chmod +x $path/Varde_AbInfo/data_analysis.py
 python3 $path/Varde_AbInfo/data_analysis.py
