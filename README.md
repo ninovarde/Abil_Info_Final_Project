@@ -14,6 +14,6 @@ A repository containing all the material related to the final project of the cou
    
 **Note:** The "Bash_Script.sh" will also be moved to the specified location.
 
-
+The output of the script will be the three plots requested in the final_project_indications.pdf file.
 
    
