@@ -16,4 +16,4 @@ mv $script_directory/Bash_Script.sh $path/Varde_AbInfo
 wget -P $path/Varde_AbInfo https://raw.githubusercontent.com/MilenaValentini/TRM_Dati/refs/heads/main/Nemo_6670.dat
 wget -P $path/Varde_AbInfo https://raw.githubusercontent.com/ninovarde/Abil_Info_Final_Project/refs/heads/main/data_analysis.py
 
-
+python3 $path/Varde_AbInfo/data_analysis.py
