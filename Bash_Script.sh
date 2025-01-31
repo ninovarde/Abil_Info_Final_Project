@@ -14,6 +14,6 @@ mv $script_directory/Bash_Script.sh $path/Varde_AbInfo
 
 # Download the data and the Python script for data analysis from the given links 
 wget -P $path/Varde_AbInfo https://raw.githubusercontent.com/MilenaValentini/TRM_Dati/refs/heads/main/Nemo_6670.dat
-wget -P $path/Varde_AbInfo
+wget -P $path/Varde_AbInfo https://github.com/ninovarde/Abil_Info_Final_Project/blob/main/data_analysis.py
 
 
