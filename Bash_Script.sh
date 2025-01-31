@@ -12,7 +12,8 @@ mkdir $path/Varde_AbInfo
 script_directory=$(dirname "$0")
 mv $script_directory/Bash_Script.sh $path/Varde_AbInfo
 
-# Download the data from the given link 
+# Download the data and the Python script for data analysis from the given links 
 wget -P $path/Varde_AbInfo https://raw.githubusercontent.com/MilenaValentini/TRM_Dati/refs/heads/main/Nemo_6670.dat
+wget -P $path/Varde_AbInfo
 
 
